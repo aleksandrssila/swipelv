@@ -1,0 +1,19 @@
+{
+    "name": "aleksandrssila/swipelv",
+    "description": "Swipe Payment Api Wrapper",
+    "require": {
+        "guzzle/guzzle": "~3.9@dev"
+    },
+    "authors": [
+        {
+            "name": "Aleksandrs Sila",
+            "email": "alex.silius.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SwipeLv\\": "src/"
+        }
+    }
+}
