@@ -23,7 +23,7 @@ class InvalidFormatException extends Exception
      */
     public function __construct($key,$message)
     {
-        parent::__construct($message);
+        parent::__construct($key.' '.$message);
         $this->invalidKey = $key;
     }
 
